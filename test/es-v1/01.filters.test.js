@@ -310,7 +310,6 @@ describe('Connector', function () {
 		done();
 	});
 
-
 	it('should build a nested "and" and "or" query for the WHERE filter', function (done) {
 		var criteria, size, offset, modelName, modelIdName;
 		criteria = {
